@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <variable
             name="User"
             type="com.example.simpledatabinding.User" />
+
         <variable
             name="Post"
             type="com.example.simpledatabinding.Post" />
@@ -35,10 +37,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{Post.title}" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{Post.description}" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Binding"
+            android:textAlignment="center"
+            android:textColor="#2196F3"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginHorizontal="10dp"/>
 
 
     </LinearLayout>
